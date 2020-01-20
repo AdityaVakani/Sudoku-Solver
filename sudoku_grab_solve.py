@@ -11,7 +11,7 @@ from fastai.vision import *
 
 
 
-img=cv2.imread('C:\\Users\\adivf\\Desktop\\Sudoku Related\\Sudoku Testing\\sudoku1t.jpg',0)
+img=cv2.imread('sudoku1t.jpg',0)
 img=cv2.resize(img,(480,640))
 cv2.imshow('img',img)
 cv2.waitKey()

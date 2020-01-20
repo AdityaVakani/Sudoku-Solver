@@ -5,7 +5,7 @@ import operator
 from fastai.vision import *
 
 
-path=Path('C:\\Users\\adivf\Desktop\\Sudoku Related\\sudoku_dset')
+path=Path('.')
 learn = load_learner(path)
 
 def pre_processing(img,dilate=False):
